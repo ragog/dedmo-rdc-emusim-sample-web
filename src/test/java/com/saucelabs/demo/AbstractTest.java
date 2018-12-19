@@ -94,16 +94,14 @@ public class AbstractTest {
             reporter = new ResultReporter();
             reporter.saveTestStatus(sessionId, status);
 
-            try {
-                driver.quit();
-            } catch (WebDriverException e) {}
-
         } else { // test was run on Sauce
             // Sauce REST API (updateJob)
             Map<String, Object> updates = new HashMap<String, Object>();
             updates.put("passed", status);
             sauceRESTClient.updateJobInfo(sessionId, updates);
         }
+
+        driver.quit();
 
     }
 
