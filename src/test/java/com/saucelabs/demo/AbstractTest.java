@@ -28,7 +28,7 @@ public class AbstractTest {
     protected SwagCloset swagCloset;
     private ResultReporter reporter;
 
-    private String sauceSeleniumURI = "@ondemand.saucelabs.com:443";
+    private String sauceURI = "@ondemand.saucelabs.com:443";
     private String buildTag = System.getenv("BUILD_TAG");
     private String username = System.getenv("SAUCE_USERNAME");
     private String accesskey = System.getenv("SAUCE_ACCESS_KEY");
@@ -64,7 +64,7 @@ public class AbstractTest {
             capabilities.setCapability("deviceName", deviceName);
             capabilities.setCapability("browserName", "chrome"); // TODO browsername currently hardcoded
 
-            gridEndpoint = "https://" + username + ":" + accesskey + sauceSeleniumURI + "/wd/hub";
+            gridEndpoint = "https://" + username + ":" + accesskey + sauceURI + "/wd/hub";
 
         }
 
@@ -78,7 +78,6 @@ public class AbstractTest {
         driver = new AndroidDriver(new URL(gridEndpoint),
                 capabilities);
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         swagCloset = new SwagCloset(driver);
         reporter = new ResultReporter();
 
@@ -87,8 +86,8 @@ public class AbstractTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown(ITestResult result) {
         String sessionId = driver.getSessionId().toString();
-        Boolean status = result.isSuccess();
-        Boolean isTOTest = driver.getCapabilities().getCapability("testobject_api_key") != null;
+        boolean status = result.isSuccess();
+        boolean isTOTest = driver.getCapabilities().getCapability("testobject_api_key") != null;
 
         if (isTOTest) {
             // TestObject REST API

@@ -9,9 +9,9 @@ public class SwagClosetTest extends AbstractTest {
     @Test
     public void loginWithInvalidCredentialsFails() {
 
-        swagCloset.homePage().load();
-        swagCloset.homePage().performLogin(Credentials.USER_INVALID_ALL);
-        Assert.assertTrue(swagCloset.homePage().errorMessageIsShown());
+        swagCloset.loginPage().load();
+        swagCloset.loginPage().performLogin(Credentials.USER_INVALID_ALL);
+        Assert.assertTrue(swagCloset.loginPage().errorMessageIsShown());
 
     }
 

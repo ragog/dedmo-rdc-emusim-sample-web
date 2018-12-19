@@ -4,6 +4,7 @@ import com.saucelabs.demo.data.Credentials;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -38,7 +39,7 @@ public class LoginPage extends AbstractPage {
         takeScreenshot();
         passwordField.sendKeys(credentials.password);
         takeScreenshot();
-        loginButton.click();
+        passwordField.sendKeys(Keys.ENTER);
         takeScreenshot();
     }
 

@@ -14,6 +14,6 @@ public class SwagCloset {
         this.driver = driver;
     }
 
-    public LoginPage homePage() { return new LoginPage(driver); }
+    public LoginPage loginPage() { return new LoginPage(driver); }
 
 }

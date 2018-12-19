@@ -10,7 +10,8 @@ import java.util.Properties;
 public class PropertyHelper {
 
     private static Properties properties = null;
-    private static String[] fileList = {"src/test/resources/credentials.properties", "src/test/resources/config.properties"};
+    private static String[] fileList = {"src/test/resources/credentials.properties",
+            "src/test/resources/config.properties"};
 
     private static void loadProperties() {
 

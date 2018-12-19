@@ -22,7 +22,8 @@ public class ResultReporter {
         resource.path("session")
                 .path(sessionId)
                 .path("test")
-                .request(new MediaType[]{MediaType.APPLICATION_JSON_TYPE}).put(Entity.json(Collections.singletonMap("passed", status)));
+                .request(new MediaType[]{MediaType.APPLICATION_JSON_TYPE})
+                .put(Entity.json(Collections.singletonMap("passed", status)));
     }
 
 }
