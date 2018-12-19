@@ -11,9 +11,10 @@ import java.time.Duration;
 /**
  * Created by grago on 27.09.17.
  */
-public class AbstractPage {
+public abstract class AbstractPage {
 
     protected AppiumDriver<MobileElement> driver;
+    protected final int STANDARD_TIMEOUT= 10;
 
     private boolean isRDC;
 
@@ -26,5 +27,7 @@ public class AbstractPage {
     public void takeScreenshot() {
         if (isRDC) { driver.getScreenshotAs(OutputType.BASE64); };
     }
+
+    abstract boolean isActive();
 
 }

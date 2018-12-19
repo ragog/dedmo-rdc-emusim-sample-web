@@ -1,6 +1,7 @@
 package com.saucelabs.demo;
 
 import com.saucelabs.demo.page.LoginPage;
+import com.saucelabs.demo.page.ProductPage;
 import io.appium.java_client.AppiumDriver;
 
 /**
@@ -15,5 +16,7 @@ public class SwagCloset {
     }
 
     public LoginPage loginPage() { return new LoginPage(driver); }
+
+    public ProductPage productPage() { return new ProductPage(driver); }
 
 }

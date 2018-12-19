@@ -39,27 +39,24 @@ public class LoginPage extends AbstractPage {
         takeScreenshot();
         passwordField.sendKeys(credentials.password);
         takeScreenshot();
-        passwordField.sendKeys(Keys.ENTER);
+        passwordField.sendKeys("\n");
         takeScreenshot();
     }
 
     public boolean errorMessageIsShown() {
-
         try {
-            new WebDriverWait(driver, 5)
+            new WebDriverWait(driver, STANDARD_TIMEOUT)
                     .until(ExpectedConditions.visibilityOfElementLocated(errorMessageBy));
             return true;
-
-
-
-
-
-
         } catch (NoSuchElementException e) {
             return false;
         }
 
     }
 
+    @Override
+    public boolean isActive () {
+        return usernameField.isDisplayed();
+    }
 
 }
