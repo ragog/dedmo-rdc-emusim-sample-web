@@ -62,7 +62,7 @@ public class AbstractTest {
             }
 
             capabilities.setCapability("deviceName", deviceName);
-            capabilities.setCapability("browserName", "chrome"); // TODO browsername currently hardcoded
+            capabilities.setCapability("browserName", "chrome");
 
             gridEndpoint = "https://" + username + ":" + accesskey + sauceURI + "/wd/hub";
 
@@ -85,23 +85,25 @@ public class AbstractTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown(ITestResult result) {
-        String sessionId = driver.getSessionId().toString();
-        boolean status = result.isSuccess();
-        boolean isTOTest = driver.getCapabilities().getCapability("testobject_api_key") != null;
+        if (driver != null) {
+            String sessionId = driver.getSessionId().toString();
+            boolean status = result.isSuccess();
+            boolean isTOTest = driver.getCapabilities().getCapability("testobject_api_key") != null;
 
-        if (isTOTest) {
-            // TestObject REST API
-            reporter = new ResultReporter();
-            reporter.saveTestStatus(sessionId, status);
+            if (isTOTest) {
+                // TestObject REST API
+                reporter = new ResultReporter();
+                reporter.saveTestStatus(sessionId, status);
 
-        } else { // test was run on Sauce
-            // Sauce REST API (updateJob)
-            Map<String, Object> updates = new HashMap<String, Object>();
-            updates.put("passed", status);
-            sauceRESTClient.updateJobInfo(sessionId, updates);
+            } else { // test was run on Sauce
+                // Sauce REST API (updateJob)
+                Map<String, Object> updates = new HashMap<String, Object>();
+                updates.put("passed", status);
+                sauceRESTClient.updateJobInfo(sessionId, updates);
+            }
+
+            driver.quit();
         }
-
-        driver.quit();
 
     }
 

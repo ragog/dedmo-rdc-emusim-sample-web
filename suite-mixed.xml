@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Test-class Suite" parallel="tests" thread-count="15">
+<suite name="Test-class Suite" parallel="tests" thread-count="100">
     <test name="Android Real Device Test 1">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
@@ -112,24 +112,6 @@
         <parameter name="deviceType" value="virtual" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="7.1" />
-        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
-        <classes>
-            <class name="com.saucelabs.demo.SwagClosetTest" />
-        </classes>
-    </test>
-    <test name="Android Emulator Test 4">
-        <parameter name="deviceType" value="virtual" />
-        <parameter name="platformName" value="android" />
-        <parameter name="platformVersion" value="5.1" />
-        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
-        <classes>
-            <class name="com.saucelabs.demo.SwagClosetTest" />
-        </classes>
-    </test>
-    <test name="Android Emulator Test 5">
-        <parameter name="deviceType" value="virtual" />
-        <parameter name="platformName" value="android" />
-        <parameter name="platformVersion" value="5.0" />
         <parameter name="deviceName" value="Android GoogleAPI Emulator" />
         <classes>
             <class name="com.saucelabs.demo.SwagClosetTest" />
