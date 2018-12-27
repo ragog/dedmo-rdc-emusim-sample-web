@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Test-class Suite" parallel="tests" thread-count="20">
-    <test name="Test 1">
+<suite name="Test-class Suite" parallel="tests" thread-count="100">
+    <test name="Android Real Device Test 1">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="6.0" />
@@ -9,7 +9,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 2">
+    <test name="Android Real Device Test 2">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="7.0" />
@@ -18,7 +18,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 3">
+    <test name="Android Real Device Test 3">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -27,7 +27,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 4">
+    <test name="Android Real Device Test 4">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -36,7 +36,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 5">
+    <test name="Android Real Device Test 5">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -45,7 +45,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 6">
+    <test name="Android Real Device Test 6">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -54,7 +54,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 7">
+    <test name="Android Real Device Test 7">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -63,7 +63,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 8">
+    <test name="Android Real Device Test 8">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -72,7 +72,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 9">
+    <test name="Android Real Device Test 9">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -81,7 +81,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 10">
+    <test name="Android Real Device Test 10">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="8.0" />
@@ -90,7 +90,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 11">
+    <test name="Android Emulator Test 1">
         <parameter name="deviceType" value="virtual" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="6.0" />
@@ -99,7 +99,7 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 12">
+    <test name="Android Emulator Test 2">
         <parameter name="deviceType" value="virtual" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="7.0" />
@@ -108,10 +108,28 @@
             <class name="com.saucelabs.demo.SwagClosetTest" />
         </classes>
     </test>
-    <test name="Test 13">
+    <test name="Android Emulator Test 3">
         <parameter name="deviceType" value="virtual" />
         <parameter name="platformName" value="android" />
         <parameter name="platformVersion" value="7.1" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 4">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="5.1" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 5">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="5.0" />
         <parameter name="deviceName" value="Android GoogleAPI Emulator" />
         <classes>
             <class name="com.saucelabs.demo.SwagClosetTest" />
