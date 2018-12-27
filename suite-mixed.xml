@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Test-class Suite" parallel="tests" thread-count="100">
+<suite name="Test-class Suite" parallel="tests" thread-count="15">
     <test name="Android Real Device Test 1">
         <parameter name="deviceType" value="real" />
         <parameter name="platformName" value="android" />
