@@ -4,7 +4,7 @@ import com.saucelabs.demo.data.Credentials;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SwagClosetTest extends AbstractTest {
+public class LoginTest extends AbstractTest {
 
     @Test
     public void loginWithInvalidCredentials() {
@@ -19,7 +19,7 @@ public class SwagClosetTest extends AbstractTest {
 
         swagCloset.loginPage().load();
         swagCloset.loginPage().performLogin(Credentials.USER_VALID);
-        Assert.assertTrue(swagCloset.productPage().isActive());
+        Assert.assertTrue(swagCloset.storePage().isActive());
 
     }
 
