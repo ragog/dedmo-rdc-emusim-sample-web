@@ -1,0 +1,183 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-class Suite" parallel="tests" thread-count="26">
+    <test name="Android Real Device Test 1">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="6.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 2">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 3">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 4">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 5">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 6">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 7">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 8">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 9">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 10">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 11">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="6.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 12">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 13">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 14">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 15">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 16">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 17">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 18">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 19">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+    <test name="Android Real Device Test 20">
+        <parameter name="deviceType" value="real" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="8.0" />
+        <parameter name="deviceName" value="" />
+        <classes>
+            <class name="com.saucelabs.demo.SwagClosetTest" />
+        </classes>
+    </test>
+</suite>
