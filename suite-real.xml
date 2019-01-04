@@ -7,6 +7,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 2">
@@ -16,6 +18,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 3">
@@ -25,6 +29,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 4">
@@ -34,6 +40,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 5">
@@ -43,6 +51,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 6">
@@ -52,6 +62,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 7">
@@ -61,6 +73,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 8">
@@ -70,6 +84,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 9">
@@ -79,6 +95,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 10">
@@ -88,6 +106,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 11">
@@ -97,6 +117,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 12">
@@ -106,6 +128,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 13">
@@ -115,6 +139,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 14">
@@ -124,6 +150,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 15">
@@ -133,6 +161,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 16">
@@ -142,6 +172,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 17">
@@ -151,6 +183,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 18">
@@ -160,6 +194,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 19">
@@ -169,6 +205,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
     <test name="Android Real Device Test 20">
@@ -178,6 +216,8 @@
         <parameter name="deviceName" value="" />
         <classes>
             <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
 </suite>
