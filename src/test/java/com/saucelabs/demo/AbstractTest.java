@@ -31,6 +31,7 @@ public class AbstractTest {
     private String username = System.getenv("SAUCE_USERNAME");
     private String accesskey = System.getenv("SAUCE_ACCESS_KEY");
     private String rdcApiKey = System.getenv("RDC_API_KEY");
+    private String extendedDebugging = System.getenv("EXT_DEBUGGING");
     private SauceREST sauceRESTClient = new SauceREST(username, accesskey);
 
     @BeforeMethod
@@ -61,6 +62,7 @@ public class AbstractTest {
 
             capabilities.setCapability("deviceName", deviceName);
             capabilities.setCapability("browserName", "chrome");
+            capabilities.setCapability("extendedDebugging", extendedDebugging);
 
             gridEndpoint = "https://" + username + ":" + accesskey + sauceURI + "/wd/hub";
 
