@@ -143,4 +143,81 @@
             <class name="com.saucelabs.demo.CheckoutTest" />
         </classes>
     </test>
+    <test name="Android Emulator Test 4">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="6.0" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 5">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.0" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 6">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.1" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 7">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="6.0" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 8">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.0" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 9">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.1" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
+    <test name="Android Emulator Test 10">
+        <parameter name="deviceType" value="virtual" />
+        <parameter name="platformName" value="android" />
+        <parameter name="platformVersion" value="7.1" />
+        <parameter name="deviceName" value="Android GoogleAPI Emulator" />
+        <classes>
+            <class name="com.saucelabs.demo.LoginTest" />
+            <class name="com.saucelabs.demo.StoreTest" />
+            <class name="com.saucelabs.demo.CheckoutTest" />
+        </classes>
+    </test>
 </suite>
